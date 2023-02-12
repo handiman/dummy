@@ -1,1 +1,13 @@
-remote_theme: handiman/jekyll-theme-gnap
+theme: jekyll-theme-gnap # When testing locally
+remote_theme: handiman/jekyll-theme-gnap # On GitHub
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+defaults:
+ - scope: 
+    path: "*.md"
+   values: 
+    layout: default
+    
